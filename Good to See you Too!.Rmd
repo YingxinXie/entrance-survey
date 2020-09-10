@@ -1,0 +1,10 @@
+---
+title: "EntranceSurvey"
+output: html_document
+---
+
+```{r}
+
+df <- read.csv("hudk4050-entrance-survey.csv", header = TRUE)
+is.numeric(df$program)
+```
